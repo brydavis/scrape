@@ -79,7 +79,7 @@ func crawl(url string, ch chan string, chFinished chan bool) {
     }
 }
 
-func main() {
+func scrapeHTML() {
     foundUrls := make(map[string]bool)
     seedUrls := os.Args[1:]
 
